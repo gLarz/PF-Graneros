@@ -1,0 +1,129 @@
+body#nosotrosPage{
+    text-align: center;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background: $background-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-origin: content-box;
+    overflow-y: scroll;
+    background-position-y: -350px;
+    text-align: center;
+}
+
+.nosotrosContainer{
+    display: grid;
+    grid-template-columns: repeat(auto, 100px);
+    grid-template-rows: repeat(15, 100px);
+    .nosotrosPages1{
+        grid-column: 1 / 21;
+        grid-row: 3 / 15;
+        margin-bottom: 5%;
+        background: white;
+    }
+    .footerBoxnosotros{
+        grid-column: 1 / 21;
+        grid-row: 15 / 15;
+        background: #FFFFFF;
+    }
+}
+
+.sectionNosotros{
+    .nosotrosText1{
+        position: absolute;
+        width: 1350px;
+        height: 300px;
+        left: 500px;
+        top: 220px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        color: #000000;
+        text-align: left;
+    }
+    .imageGragusstandmanguera{
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 50px;
+        top: 250px;
+        background: url(../assets/images/stand-costa-salguero/carrusel/equipo_2.jpg);
+        border-radius: 5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+    .gragusSudamericanosotros{
+        display: none;
+    }
+    .nosotrosText2{
+        position: absolute;
+        width: 1300px;
+        height: 309px;
+        left: 50px;
+        top: 625px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        color: #000000;
+        text-align: left;
+    }
+    .imageGragusstandmanguera2{
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 1425px;
+        top: 715px;
+        background: url(../assets/images/stand-costa-salguero/sergio-stand-2.jpg);
+        border-radius: 5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+}
+
+.gragusTextallrightsnosotros{
+    position: absolute;
+    width: 375px;
+    height: 10px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    top: 1445px;
+    right: 25px;
+}
+.footerLogonosotros{
+    position: absolute;
+    background-image: url(../assets/images/gragus-logo-pistol.jpg);
+    width: 56px;
+    height: 55px;
+    background-size: 56px 55px;
+    background-repeat: no-repeat;
+    top: 1425px;
+    left: 75px;
+}
+.gitHubnosotros{
+    position: absolute;
+    width: 132.3px;
+    height: 26px;
+    left: 135px;
+    top: 1440px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}

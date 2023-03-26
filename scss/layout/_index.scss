@@ -1,0 +1,352 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body#indexBody{
+    text-align: center;
+    height: 2400px;
+    position: relative;
+    width: auto;
+    display: flex;
+    background-repeat: no-repeat;
+    background: $background-color;
+    background-size: cover;
+    background-position: center center;
+    scroll-behavior: smooth;
+}
+
+.containerGridsindex{
+    display: grid;
+    grid-template-columns: repeat(19, 100px);
+    grid-template-rows: repeat(24, 100px);
+    .footerBoxindex{
+        grid-column: 1 /20 ;
+        grid-row: 24 / 24 ;
+        margin-right: -0.15%;
+        background: white;
+    }
+}
+.footerLogoindex {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -150px;
+    top: 2160px;
+    background-image: url(../assets/images/gragus-logo-pistol.jpg);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+.gitHubindex{
+    position: absolute;
+    width: 132.3px;
+    height: 26px;
+    left: -85px;
+    top: 2180px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.gragusTextallrightsindex {
+    position: absolute;
+    width: 383px;
+    height: 26px;
+    left: 1275px;
+    top: 2180px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.bannerArea{
+    left: 215px;
+    top: 160px;
+    width: 1440px;
+    height: 720px;
+    position: absolute;
+    background-image: url(../assets/images/w-watermark-covers/poliurea-spray-apli.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    .bannerLuminosity{
+        position: absolute;
+        width: 1440px;
+        height: 383px;
+        left: 0%;
+        right: 0%;
+        top: 23.47%;
+        bottom: 23.33%;
+        background: rgba(255, 255, 255, 0.28);
+        background-size: cover;
+        background-position: center center;
+    }
+    .bannerLuminosity h2{
+        position: absolute;
+        left: 14.93%;
+        right: 12.01%;
+        top: 8%;
+        bottom: 46.11%;
+        text-align: left;
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 135%;
+        
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        
+        color: #000000;
+        
+        mix-blend-mode: hard-light;
+    }
+    .bannerLuminosity h3{
+        position: absolute;
+        left: 14.93%;
+        right: 19.93%;
+        top: 45%;
+        bottom: 22.64%;
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        color: #000000;
+        text-align: left;
+    }
+}
+
+main#indexMain{
+    position: absolute;
+    width: 1903px;
+    height: 1080px;
+    left: -215px;
+    top: 950px;
+    background: white;
+    .distribuidoresText{
+        position: absolute;
+        width: 800px;
+        height: 25px;
+        left: 535px;
+        top: 40px;
+        text-align: center;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-transform: uppercase;
+        line-height: 30px;
+        color: #000000;
+        align-items: center;
+    }
+    
+    
+    .gracoLogopng a{
+        width: 285px;
+        height: 85px;
+        left: 100px;
+        top: 100px;
+        position: absolute;
+        background-image: url(../assets/images/graco-logo.png);
+        background-size: 285px 85px;
+        background-repeat: no-repeat;
+    }
+    
+    .ravenLogo a{
+        width: 277px;
+        height: 80px;
+        left: 467px;
+        top: 105px;
+        position: absolute;
+        background-image: url(../assets/images/raven-logo.png);
+        background-size: 277px 80px;
+        background-repeat: no-repeat;
+    }
+    
+    .versaflexLogo a{
+        width: 230px;
+        height: 175px;
+        left: 817px;
+        top: 55px;
+        position: absolute;
+        background-image: url(../assets/images/logo-versaflex.png);
+        background-size: 230px 175px;
+        background-repeat: no-repeat;
+    }
+    
+    .spiLogo a{
+        position: absolute;
+        width: 330px;
+        height: 105px;
+        left: 1135px;
+        top: 95px;
+        background-image: url(../assets/images/spi-logo.png);
+        background-size: 330px 105px;
+        background-repeat: no-repeat;
+    }
+    
+    .ppgLogo a{
+        position: absolute;
+        width: 167px;
+        height: 118px;
+        left: 1595px;
+        top: 80px;
+        background-image: url(../assets/images/ppg-logo.png);
+        background-size: 167px 118px;
+        background-repeat: no-repeat;
+    }
+    
+    .serviciosText{
+        position: absolute;
+        width: 574px;
+        height: 115px;
+        left: 620px;
+        top: 250px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 160%;
+        text-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .blueRectangle{
+        position: absolute;
+        width: 225px;
+        height: 5px;
+        left: 800px;
+        top: 345px;
+        align-items: center;
+        background: #005696;
+    }
+    
+    
+    .ventaText{
+        position: absolute;
+        width: 574px;
+        height: 115px;
+        left: 625px;
+        top: 385px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+    }
+    
+    .poliuretanoText{
+        position: absolute;
+        width: 309px;
+        height: 64px;
+        left: 240px;
+        top: 460px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 159.49%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .poliureaText{
+        position: absolute;
+        width: 309px;
+        height: 64px;
+        left: 775px;
+        top: 460px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 159.49%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .maquinariaText{
+        position: absolute;
+        width: 309px;
+        height: 64px;
+        left: 1320px;
+        top: 460px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 159.49%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .imagePoliuretano{
+        position: absolute;
+        width: 404px;
+        height: 345px;
+        left: 187px;
+        top: 545px;
+        background: url(../assets/images/w-watermark-covers/poliuretano03_g.jpg);
+        border-radius: 40px;
+        background-repeat: no-repeat;
+        
+    }
+    .imagePoliurea{
+        position: absolute;
+        width: 404px;
+        height: 345px;
+        left: 730px;
+        top: 545px;
+        background: url(../assets/images/w-watermark-covers/spi_galeria06_g.jpg);
+        border-radius: 40px;
+        background-repeat: no-repeat;
+        
+    }
+    .imageMaquinaria{
+        position: absolute;
+        width: 404px;
+        height: 345px;
+        left: 1273px;
+        top: 545px;
+        background: url(../assets/images/minneapolis-watermark/graco-equipment-w.jpg);
+        border-radius: 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .underimagesTextservices{
+        position: absolute;
+        width: 1270px;
+        height: 69px;
+        left: 300px;
+        top: 935px;
+        font-family: 'Arial';
+        font-style:normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+    .blueRectangle2{
+        position: absolute;
+        width: 225px;
+        height: 5px;
+        left: 800px;
+        top: 1050px;
+        align-items: center;
+    background: #005696;
+    }
+}

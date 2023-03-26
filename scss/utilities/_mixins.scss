@@ -1,0 +1,26 @@
+@mixin navBar{
+    position: absolute;
+        left: 400px;
+        top: 30px;
+}
+
+@mixin navBar768{
+    position: fixed;
+            left: 0px;
+            top: 110px;
+            width: 767px;
+}
+
+@mixin navBar390{
+    position: fixed;
+            left: 0px;
+            top: 110px;
+            width: 390px;
+}
+
+@mixin navBar360{
+    position: fixed;
+            left: 0px;
+            top: 110px;
+            width: 360px;
+}

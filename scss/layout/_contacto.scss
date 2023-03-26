@@ -1,0 +1,202 @@
+body#contactoPage{
+    text-align: center;
+    position: relative;
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    background: $background-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-origin: content-box;
+    overflow-y: scroll;
+    background-position-y: -350px;
+    text-align: center;
+}
+
+.contactosGrid{
+    display: grid;
+    grid-template-columns: repeat(19, 100px);
+    grid-template-rows: repeat(14, 100px);
+    .c1{
+        grid-column: 1 /20 ;
+        grid-row: 2 / 5 ;
+        margin-right: -1%;
+        background: #DBDBDB;
+        margin-bottom: 0%;
+    }
+    .c2{
+        grid-column: 1 /20 ;
+        grid-row: 5 / 6 ;
+        margin-right: -1%;
+        margin-top: -2.5%;
+        margin-bottom: -2%;
+        background: #ABABAB;
+    }
+    .c3{
+        grid-column: 1 /9 ;
+        grid-row: 6 / 13 ;
+        margin-right:-3.53%;
+        margin-top: 7%;
+        margin-bottom: -6%;
+        background: white;
+        .iframeMaps{
+            position: absolute;
+            top: 590px;
+            left: 10px;
+        }
+    }
+    .c4{
+        grid-column: 14 / 20 ;
+        grid-row: 6 / 13 ;
+        margin-top: 9%;
+        margin-bottom: 5.5%;
+        margin-right: -3%;
+        margin-left: 70px;
+        background-color: white;
+        .iframeYoutube{
+            left: 900px;
+            top: 590px;
+        }
+    }
+    .footerBoxcontactos{
+        grid-column: 1 /20 ;
+        grid-row: 14 / 14 ;
+        margin-right: -1%;
+        background: white;
+    }
+}
+.sectionContactos{
+    .mapsLogo a{
+        background-image: url(../assets/images/maps-logo.png);
+        position: absolute;
+        width: 295px;
+        height: 200px;
+        background-repeat: no-repeat;
+        left: 750px;
+        top: 1090px;
+        background-size: 295px 200px;
+    }
+    .contacteseHoy{
+        position: absolute;
+        left: 27%;
+    top: 13%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    }
+    .horariosArg{
+        position: absolute;
+    width: 731px;
+    height: 62px;
+    left: 590px;
+    top: 270px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    }
+    .telefonosArg{
+        position: absolute;
+    width: 545px;
+    height: 54px;
+    left: 50px;
+    top: 380px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    }
+    .correoElectronico{
+        position: absolute;
+    width: 358px;
+    height: 48px;
+    left: 780px;
+    top: 380px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    }
+    .direcArg{
+        position: absolute;
+    width: 481px;
+    height: 88px;
+    left: 1350px;
+    top: 380px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 50px;
+    text-align: center;
+    }
+    .mapsText{
+        position: absolute;
+        width: 665px;
+        height: 62px;
+        left: 50px;
+        top: 1210px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        color: #000000;
+        text-align: center;
+    }
+}
+
+.footerContactos{
+    .footerLogocontactos{
+        position: absolute;
+        background-image: url(../assets/images/gragus-logo-pistol.jpg);
+        width: 56px;
+        height: 55px;
+        background-size: 56px 55px;
+        background-repeat: no-repeat;
+        top: 1325px;
+        right: 1775px;
+    }
+    .gragusTextallrightscontactos{
+        position: absolute;
+        width: 375px;
+        height: 10px;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+        top: 1340px;
+        right: 25px;
+    }
+    .gitHubcontactos{
+        position: absolute;
+    width: 132.3px;
+    height: 26px;
+    left: 150px;
+    top: 1340px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    }
+}

@@ -1,0 +1,50 @@
+header{
+    height: 100px;
+    background: white;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    }
+    .headerGraguslogo a{
+        position: fixed;
+        width: 312px;
+        height: 80px;
+        left: 34px;
+        top: 11px;
+        border-radius: 15px;
+        background-image: url(../assets/images/gragus_logo.jpg);
+        background-size: 312px 80px;
+    }
+    .navBar{
+        @include navBar;
+        .ulIndex{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        .ulIndex li {
+            display: inline;
+        }
+        .ulIndex li a {
+            right: 550px;
+            top: 37px;
+            display: inline;
+            padding: 8px;
+            text-align: center;
+            padding: 15px 25px;
+            text-decoration: none;
+            width: 195px;
+            height: 39px;
+            font-family: 'Assistant';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 39px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        .ulIndex li a:hover {
+            background-color:#b0d1ef;
+        }
+}

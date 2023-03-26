@@ -1,0 +1,121 @@
+body#clientesPage{
+    text-align: center;
+    height: 1000px;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background: $background-color;
+}
+.containerClientes{
+    display: grid;
+    grid-template-columns: repeat(auto, 100px);
+    grid-template-rows: repeat(10, 100px);
+    .footerClientes{
+        grid-column: 1 / 21;
+        grid-row: 10/ 10;
+        background-color: white;
+    }
+}
+
+.sectionClientes{
+    .referenciasPage{
+        position: absolute;
+        width: 1200px;
+        height: 625px;
+        left: 325px;
+        top: 125px;
+        background: white;
+    }
+    .referenciash2Text{
+        position: absolute;
+        left: 800px;
+        top: 18%;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 0px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .blueRectanglereferences{
+        position: absolute;
+        width: 195px;
+        height: 7px;
+        left: 825px;
+        top: 215px;
+        background: #005696;
+    }
+    .textClientes{
+        position: absolute;
+    width: 1175px;
+    height: 200px;
+    left: 340px;
+    top: 600px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    }
+    .imageReferencias{
+        position: absolute;
+        width: 1375px;
+        height: 345px;
+        left:237px;
+        top: 235px;
+        background-image: url(../assets/images/referencias.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        -webkit-background-size:1200px 345px;
+        background-position: center center;
+        
+    }
+}
+
+.footerClienteslogo{
+    background-image: url(../assets/images/gragus-logo-pistol.jpg);
+    position: absolute;
+    background-image: url(../assets/images/gragus-logo-pistol.jpg);
+    width: 56px;
+    height: 55px;
+    background-size: 56px 55px;
+    background-repeat: no-repeat;
+    top: 925px;
+    right: 1775px;
+}
+
+.footerClientestext{
+    position: absolute;
+    width: 375px;
+    height: 10px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    top: 940px;
+    right: 25px;
+}
+.gitHubclientes{
+    position: absolute;
+    width: 132.3px;
+    height: 26px;
+    left: 150px;
+    top: 940px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
